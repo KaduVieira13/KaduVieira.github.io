@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;  
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-image: url("../img/bg.jpeg")  ;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: #aeaeae;
+}
+
+.profile {
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+}
+
+.box span {
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+.title {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.box {
+    background: #eee;
+    padding: 4rem;
+    margin-top: 8rem;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais li {
+    margin-right: 1rem;
+}
+
+
+.portfolio {
+    max-width: 886px;
+    box-sizing: border-box;
+  }
+  
+  .portfolio ul {
+    margin-top: 3rem;
+  }
+  
+  .portfolio li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+    gap: 1rem;
+    color: #606060;
+  }
+  
+  .portfolio li + li {
+    margin-top: 2rem;
+  }
+  
+  .portfolio img {
+    border-radius: 10px;
+  }
+  
+  .portfolio h2 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  .copyright {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 16px black;
+    margin: 50vh 0;
+  }
+  
